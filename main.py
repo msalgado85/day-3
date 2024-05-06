@@ -97,58 +97,58 @@
 # print("the lenghth of the declaration is"+ len(declarationOfIndependence))
 #what if I wanted to make the letters in the variable upper case or lower?
 
-new_phrase = "welcome to day 2 part 3"
-print(len(new_phrase))
-print(new_phrase.upper())
-# .upper is a method that makes the string all upper case
-# parentheses are used to call mathods
-print(new_phrase. lower())
-# .lower is a method that makes the string all lower case
+# new_phrase = "welcome to day 2 part 3"
+# print(len(new_phrase))
+# print(new_phrase.upper())
+# # .upper is a method that makes the string all upper case
+# # parentheses are used to call mathods
+# print(new_phrase. lower())
+# # .lower is a method that makes the string all lower case
 
-# what if I wanted to check and see if the phrase was all lowercase
+# # what if I wanted to check and see if the phrase was all lowercase
 
-print(new_phrase.islower())
+# print(new_phrase.islower())
 
-# what if I wanted to get one letter of the phrase
-print(new_phrase[0])
-print(new_phrase [1])
-print(new_phrase [11])
-print(new_phrase [20])
-# you can count but [-1] a;so gives you the last character
-print(new_phrase [-1])
+# # what if I wanted to get one letter of the phrase
+# print(new_phrase[0])
+# print(new_phrase [1])
+# print(new_phrase [11])
+# print(new_phrase [20])
+# # you can count but [-1] a;so gives you the last character
+# print(new_phrase [-1])
 
-# The names you use when creating these labels need to follow a few rules:
-# 1. Names can not start with a number.
-# 2. There can be no spaces in the name, use _ instead.
-# 3. Can't use any of these symbols :'",<>/?|()!@#$%^&*~-+
-# 4. It's considered best practice (PEP8) that names are lowercase.
-# 5. Avoid using the characters 'l' (lowercase letter el), 'O' (uppercase letter oh), or 'I' (uppercase
-# letter eye) as single character variable names.
-
-
-
-# Working with numbers bold text
-# We'll learn about the following topics:
-# 1. Types of Numbers in Python
-# 2. Basic Arithmetic
-# 3. Differences between classic division and floor division
+# # The names you use when creating these labels need to follow a few rules:
+# # 1. Names can not start with a number.
+# # 2. There can be no spaces in the name, use _ instead.
+# # 3. Can't use any of these symbols :'",<>/?|()!@#$%^&*~-+
+# # 4. It's considered best practice (PEP8) that names are lowercase.
+# # 5. Avoid using the characters 'l' (lowercase letter el), 'O' (uppercase letter oh), or 'I' (uppercase
+# # letter eye) as single character variable names.
 
 
-# # Addition
-# ('+'):Sum of numbers
-print(2 + 2)
-# # Subtraction
-print(2 - 5)
-# # Multiplication
-print(2 * 3)
-# # Division
-print(10 / 2)
-# # Modulus
-print(10 % 3)
-# # Exponentiation
-print(2 ** 3)
-# # Floor Division
-print(10 // 3)
+
+# # Working with numbers bold text
+# # We'll learn about the following topics:
+# # 1. Types of Numbers in Python
+# # 2. Basic Arithmetic
+# # 3. Differences between classic division and floor division
+
+
+# # # Addition
+# # ('+'):Sum of numbers
+# print(2 + 2)
+# # # Subtraction
+# print(2 - 5)
+# # # Multiplication
+# print(2 * 3)
+# # # Division
+# print(10 / 2)
+# # # Modulus
+# print(10 % 3)
+# # # Exponentiation
+# print(2 ** 3)
+# # # Floor Division
+# print(10 // 3)
 # # Order of Operations followed in Python
 
 # # You can use parentheses to specify the order in which you want operations to be performed.
@@ -191,3 +191,14 @@ print(10 // 3)
 # Convert and print the phrase in uppercase and lowercase.
 # Check if the phrase is all lower or all upper and print the result.
 # Print the first and the last letter of the phrase.
+
+avg_grade = int(input("What is your average grade? "))
+if avg_grade>=85:
+    print("you are awarded honor roll! congrats! ")
+else:
+    print("You do not qualify for honor roll!")
+extra_activities = int(input("how many extra curriculars are you in? "))
+if extra_activities >=3:
+    print("You have been recognized for high involvement!")
+else:
+    print("Sorry! You have not been recognized for high involvement")
